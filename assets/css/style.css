@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+}
+
+.bg1 {
+    background-image: url(../images/trees.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+h1 {
+font-family: 'Monoton', cursive;
+color: white;
+font-size: 50px;
+margin-left: 24%;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar {
+    margin-left: 45%;
+}
+
+.aboutMe {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    
+    
+}
+
+#selfie {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
