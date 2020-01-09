@@ -11,7 +11,7 @@ body, html {
     background-size: cover;    
 }
 
-h1 {
+#topName {
 font-family: 'Monoton', cursive;
 color: white;
 font-size: 50px;
@@ -19,7 +19,7 @@ margin-left: 24%;
 }
 
 .nav-link {
-    color: white !important;
+    color: yellow !important;
 }
 
 .navbar {
@@ -38,4 +38,25 @@ margin-left: 24%;
     height: 200px;
     width: 200px;
     margin: auto;
+}
+
+.jumbotron {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: #1c2a44;
+    color: whitesmoke;
+}
+
+#pageBreak {
+    transform: translateY(-50%);
+}
+
+.bg2 {
+    background-image: url(../images/mountains.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
 }
