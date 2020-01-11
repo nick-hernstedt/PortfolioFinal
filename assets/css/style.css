@@ -4,7 +4,8 @@ body, html {
 
 .bg1 {
     background-image: url(../images/trees.jpg);
-    height: 100%;
+    min-height: 100%;
+    max-height: 150%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,7 +56,8 @@ margin-left: 24%;
 
 .bg2 {
     background-image: url(../images/mountains.jpg);
-    height: 100%;
+    min-height: 100%;
+    max-height: 150%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,5 +80,5 @@ margin-left: 24%;
 
 #contactLink {
    margin-left: 46%;
-   color: white;
+   color: yellow;
 }
